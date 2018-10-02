@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="FloatData.cs" t="Include" />
+          <e p="IfStatement.cs" t="Include" />
           <e p="Move.cs" t="Include" />
           <e p="SubtractValue.cs" t="Include" />
           <e p="TriggerEventBehaviour.cs" t="Include" />
