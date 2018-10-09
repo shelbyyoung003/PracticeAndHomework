@@ -9,6 +9,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5b75f7b4456036459409e5e1f857afe, type: 3}
-  m_Name: 11
+  m_Name: AddValue
   m_EditorClassIdentifier: 
-  Data: {fileID: 0}
+  Data: {fileID: 11400000, guid: b449f5263377158429ae7e29ea2d4298, type: 2}
