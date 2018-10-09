@@ -4,6 +4,7 @@ public class IfStatement : MonoBehaviour
 {
 
 	public FloatData CoinValue, GoldValue;
+	public FloatData PlayerHealth;
 	
 	void Update () {
 
@@ -14,6 +15,12 @@ public class IfStatement : MonoBehaviour
 		else
 		{
 			print("Gold Added to Inventory.");
+		}
+
+		if (PlayerHealth.Value <= 0)
+
+		{
+			print("You Have Died.");
 		}
 		
 	}

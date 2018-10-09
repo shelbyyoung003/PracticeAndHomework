@@ -22,7 +22,9 @@ GameObject:
   - component: {fileID: 33135218889207436}
   - component: {fileID: 23984943507761730}
   - component: {fileID: 136495956881195614}
-  - component: {fileID: 114872168901015116}
+  - component: {fileID: 54986241685622496}
+  - component: {fileID: 75013635968020502}
+  - component: {fileID: 114656649760966648}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -37,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1552430332040904}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.39433298, y: 1.27, z: 7.861}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.23353429, y: 0.19915338, z: 0.23353429}
   m_Children: []
   m_Father: {fileID: 0}
@@ -85,7 +87,33 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1552430332040904}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114872168901015116
+--- !u!54 &54986241685622496
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1552430332040904}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!75 &75013635968020502
+ConstantForce:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1552430332040904}
+  m_Enabled: 1
+  m_Force: {x: 0, y: 0, z: 0}
+  m_RelativeForce: {x: 0, y: 0, z: 10}
+  m_Torque: {x: 0, y: 0, z: 0}
+  m_RelativeTorque: {x: 0, y: 0, z: 0}
+--- !u!114 &114656649760966648
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,7 +121,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1552430332040904}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1879679c1c491e741921780fb58373c5, type: 3}
+  m_Script: {fileID: 11500000, guid: 9707cc04509f1db4ba361e5d00ae4818, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!136 &136495956881195614
