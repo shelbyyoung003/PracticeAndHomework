@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5771b19fc3f6a7749b0c7a43df5ae23f, type: 3}
+  m_Name: PeachVillains
+  m_EditorClassIdentifier: 
+  ObjectList:
+  - {fileID: 11400000, guid: c68f942967e97614f87549ffaf84e4bd, type: 2}
+  - {fileID: 11400000, guid: daf4c30afbbf9804a9d36a39771e1cd5, type: 2}

@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="AddToCollection.cs" t="Include" />
           <e p="AddValue.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
           <e p="DestroyObject.cs" t="Include" />
@@ -14,6 +15,8 @@
           <e p="IfStatement.cs" t="Include" />
           <e p="Instancing.cs" t="Include" />
           <e p="Move.cs" t="Include" />
+          <e p="NameID.cs" t="Include" />
+          <e p="ObjectCollection.cs" t="Include" />
           <e p="SubtractValue.cs" t="Include" />
           <e p="TriggerEventBehaviour.cs" t="Include" />
         </e>
